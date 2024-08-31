@@ -1,0 +1,139 @@
+/* Container for the home page */
+.home-container {
+    font-family: Arial, sans-serif;
+    color: #333;
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  /* Hero section */
+  .hero {
+    position: relative;
+    background: url('./images/JobImagee.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    padding: 80px 20px;  /* Adjust padding as needed */
+    border-radius: 8px;
+    margin-bottom: 30px;
+    text-align: center;
+    min-height: 400px;  /* Ensure it has some height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .hero-content {
+    background: rgba(0, 0, 0, 0.5);  /* Semi-transparent background for readability */
+    padding: 20px;
+    border-radius: 8px;
+    margin: 0 auto;
+    max-width: 600px;
+  }
+  
+  .hero-content h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  
+  .hero-content p {
+    font-size: 1.2rem;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #007bff;
+    border: 2px solid #007bff;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #007bff;
+    color: white;
+  }
+ /* Features section styles */
+.features {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Features heading styles */
+  .features h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Grid layout for features */
+  .features-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between cards */
+    flex-wrap: wrap; /* Allow cards to wrap onto multiple lines if needed */
+  }
+  
+  /* Individual feature card styles */
+  .feature-card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 250px; /* Fixed width for cards */
+    height: 250px; /* Fixed height to make the card square */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+    margin: 10px; /* Space around each card */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Distribute space evenly */
+  }
+  
+  /* Hover effect for cards */
+  .feature-card:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+  }
+  
+  .feature-card h3 {
+    margin-top: 0;
+    font-size: 1.5rem;
+  }
+  
+  .feature-card p {
+    font-size: 1rem;
+    flex-grow: 1; /* Allow paragraph to expand and fill the space */
+  }
+  
+  
+  /* Footer section */
+  .footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .features {
+      flex-direction: column;
+    }
+    
+    .hero {
+      padding: 60px 10px;
+      min-height: 300px;
+    }
+  }
+  .footer {
+    background-color:#007bff;
+    padding: 10px;
+    text-align: center;
+    border-top: 1px solid #ddd;
+    color: #ffffff;
+  }
+  
